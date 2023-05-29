@@ -10,8 +10,16 @@
   margin: auto;
   padding: 50px;
 }
-.navbar .rrr{
-  width: 300px;
+.navbar ul{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul a{
+  text-decoration: none;
+}
+.navbar ul li{
+  list-style-type: none;
 }
 /* .card {
   display: flex;
