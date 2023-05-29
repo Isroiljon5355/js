@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+}
+.navbar .rrr{
+  width: 300px;
+}
 /* .card {
   display: flex;
   flex-wrap: wrap;
