@@ -30,3 +30,15 @@
   padding: 20px;
   border: 1px solid red;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8%;
+}
+ul {
+  display: flex;
+}
+ul li {
+  margin: 0px 20px;
+  list-style: none;
+}
