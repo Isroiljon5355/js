@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,7 +43,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: space-between;
   gap: 25px;
-=======
 
 .menu {
     position: relative;
@@ -71,7 +69,6 @@
   color: silver;
   width: 50px;
   height: 140px !important;
->>>>>>> 8ac3023f6913c955c44f585644b3d59f52206b9a
 }
 
 .between {
@@ -102,7 +99,6 @@
 
 .menu_two {
   border: 1px solid red;
-<<<<<<< HEAD
 } */
 
 .card img {
@@ -117,7 +113,6 @@
   padding: 200px;
   padding-left: 500px;
   font-size: x-large;
-=======
   width: 550px;
   height: 358px;
   margin-top: 30px;
@@ -126,7 +121,6 @@
 .menu12 {
   display: flex;
   justify-content: space-between;
->>>>>>> 8ac3023f6913c955c44f585644b3d59f52206b9a
 }
 
  .header {
@@ -289,4 +283,150 @@
   text-align: center;
   padding: 5px 0px;
   margin: 30px;
+}
+
+/* footer qismi */
+
+.smal_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 50px;
+  padding: 0px 50px;
+  border-radius: 10px;
+  background: rgb(255, 237, 213);
+}
+
+.smal-card i {
+  margin-right: 10px;
+  color: rgb(16, 200, 129);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.but h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.but ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+.but a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.but a:hover {
+  color: rgb(16, 200, 129);
+  cursor: pointer;
+}
+
+.but img {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.ilovala {
+  display: flex;
+}
+
+.ilovala img {
+  margin: 8px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.ilovalar h1 {
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.ilov {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+  margin: 20px;
+}
+
+.cell {
+  text-align: center;
+  font-size: 12px;
+}
+
+.cell h1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cell span {
+  color: rgb(16, 200, 129);
+  font-size: 25px;
+}
+
+.texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.texts a {
+  text-decoration: none;
+  color: rgb(16, 200, 129);
+
+}
+
+.texts h1 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 90px;
+}
+
+.smal-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.smal-card h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ilovala i {
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+  color: white;
+  background-color: deepskyblue;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid deepskyblue;
+}
+
+.ilovala i:hover {
+  color: deepskyblue;
+  background-color: white;
 }
