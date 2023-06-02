@@ -3,7 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: sans-serif;
+}
+.bbb{
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin: auto;
+  font-size: 13px;
+  padding: 10px;
+}
 .katta {
   position: fixed;
   width: 100%;
@@ -88,7 +98,7 @@ nav {
 ul li a {
   text-decoration: none;
   position: relative;
-
+color: black;
 }
 
 .p1 ul li a::before {
