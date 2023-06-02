@@ -93,8 +93,16 @@ nav {
 .p1 ul {
   list-style-type: none;
   display: flex;
+  align-items: center;
 }
-
+.red{
+  background-color: rgb(229, 196, 196);
+  padding: 5px;
+  border-radius: 5px;
+}
+.red a{
+  color: brown;
+}
 ul li a {
   text-decoration: none;
   position: relative;
@@ -110,4 +118,27 @@ color: black;
   background-color: rgb(5, 185, 149);
   position: absolute;
   transition: 0.5s;
+}
+@media(max-width: 1150px){
+  .bosh2{
+    width: 500px;
+  }
+}
+@media(max-width: 800px) {
+.bbb{
+  display: none;
+}
+.bosh1{
+  display: none;
+}
+.bosh3{
+  display: none;
+}
+.pas1{
+  display: none;
+}
+.bosh2{
+  text-align: center;
+  width: 100%;
+}
 }
