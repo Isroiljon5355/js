@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,34 +43,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: space-between;
   gap: 25px;
-=======
-
-.menu {
-    position: relative;
-} 
-
- .menu img {
-    width: 100%;
-    height: 358px;
-    margin-top: 30px;
-    border-radius: 10px;
-    padding-left: 90px;
-
-} 
-
-.cardtext {
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  top: 30%;
-  left: 15%;
-} 
-
- .between2 {
-  color: silver;
-  width: 50px;
-  height: 140px !important;
->>>>>>> 8ac3023f6913c955c44f585644b3d59f52206b9a
 }
 
 .between {
@@ -102,7 +73,6 @@
 
 .menu_two {
   border: 1px solid red;
-<<<<<<< HEAD
 } */
 
 .card img {
@@ -117,16 +87,6 @@
   padding: 200px;
   padding-left: 500px;
   font-size: x-large;
-=======
-  width: 550px;
-  height: 358px;
-  margin-top: 30px;
-} 
-
-.menu12 {
-  display: flex;
-  justify-content: space-between;
->>>>>>> 8ac3023f6913c955c44f585644b3d59f52206b9a
 }
 
  .header {
@@ -289,4 +249,90 @@
   text-align: center;
   padding: 5px 0px;
   margin: 30px;
+}
+/* card */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+ .ico:hover {
+  background-color: rgb(16, 185, 129);
+  cursor: pointer;
+  color: white;
+}
+
+.s1 {
+  margin: 10px 130px;
+  text-align: center;
+}
+
+.s2 {
+  text-align: center;
+  margin: 40px auto;
+  background-color: #F9FAFB;
+}
+
+.s3 {
+  width: 100px;
+  display: block;
+  margin: 40px auto;
+
+}
+
+.div2 {
+  width: 230px;
+  height: 260px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+
+.kaliy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ico {
+  margin: 0px 20px;
+  font-size: 20px;
+  border: solid 0.5px rgb(225, 223, 223);
+  padding: 4px;
+  color: rgb(16, 185, 20);
+  border-radius: 5px;
+}
+
+.lop {
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+.s5 {
+  margin: 0px 10px;
+}
+
+.s6 {
+  margin: 10px;
+}
+
+.tt {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  justify-content: space-between;
+  margin: 20px auto;
+
 }
