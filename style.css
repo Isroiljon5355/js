@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -10,17 +11,21 @@
   margin: auto;
   padding: 50px;
 }
+
 .navbar ul {
   width: 400px;
   display: flex;
   justify-content: space-between;
 }
+
 .navbar ul a {
   text-decoration: none;
 }
+
 .navbar ul li {
   list-style-type: none;
 }
+
 /* .card {
   display: flex;
   flex-wrap: wrap;
@@ -107,6 +112,7 @@
   object-fit: cover;
   position: absolute;
 }
+
 .word {
   position: relative;
   color: whitesmoke;
@@ -116,30 +122,30 @@
   width: 550px;
   height: 358px;
   margin-top: 30px;
-} 
+}
 
 .menu12 {
   display: flex;
   justify-content: space-between;
 }
 
- .header {
+.header {
   background-color: pink;
   width: 100%;
   height: 30px;
   align-items: center;
   text-align: center;
-} 
+}
 
- .between2 img {
+.between2 img {
   width: 120px;
   height: 120px;
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 5px;
-} 
+}
 
- .between2 {
+.between2 {
   display: flex;
   background-color: whitesmoke;
   width: 540px;
@@ -170,30 +176,30 @@
   display: flex;
 }
 
- .ss {
+.ss {
   margin-top: 15px;
   margin-left: 10px;
-} 
+}
 
 .down {
   display: flex;
 }
 
- .own {
+.own {
   display: flex;
   gap: 20px;
   font-size: 20px;
-} 
+}
 
- .own span {
+.own span {
   color: red;
   font-size: 20px;
-} 
+}
 
 .gift {
   font-size: 17px;
 }
- 
+
 .active {
   background-color: aquamarine;
   color: #10b981;
@@ -201,7 +207,8 @@
   height: 20px;
   text-align: center;
   border-radius: 5px;
-} 
+}
+
 .activee {
   background-color: pink;
   color: red;
@@ -224,21 +231,21 @@
   border-radius: 3px;
   text-align: center;
   padding: 5px 0px;
-} 
+}
 
- .firstt {
+.firstt {
   background-color: pink;
   width: 30px;
   height: 30px;
   border-radius: 3px;
   text-align: center;
   padding: 5px 0px;
-} 
+}
 
- .point {
+.point {
   font-size: 25px;
   gap: 10px;
-} 
+}
 
 .couple {
   margin: 20px 30px;
@@ -258,8 +265,9 @@
   width: 150px;
   font-size: 10px;
   margin-top: 10px;
-} 
- .pink {
+}
+
+.pink {
   background-color: pink;
   width: 94%;
   height: 110px;
@@ -269,9 +277,9 @@
   margin-left: 90px;
 }
 
- .natural {
+.natural {
   margin: 30px;
-} 
+}
 
 .now {
   background-color: #10b981;
