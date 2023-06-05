@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -11,20 +10,96 @@
   margin: auto;
   padding: 50px;
 }
-
 .navbar ul {
   width: 400px;
   display: flex;
   justify-content: space-between;
 }
-
 .navbar ul a {
   text-decoration: none;
 }
-
 .navbar ul li {
   list-style-type: none;
 }
+/* .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:25px;
+}
+.item_card {
+  width: 250px;
+  height: 200px;
+  border: 1px solid red;
+}
+@media (max-width: 560px) {
+  .card {
+    justify-content: center;
+  }
+} */
+
+/* .card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: space-between;
+  gap: 25px;
+
+.menu {
+    position: relative;
+} 
+
+ .menu img {
+    width: 100%;
+    height: 358px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 90px;
+
+} 
+
+.cardtext {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  top: 30%;
+  left: 15%;
+} 
+
+ .between2 {
+  color: silver;
+  width: 50px;
+  height: 140px !important;
+}
+
+.between {
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.head {
+  font-size: 20px;
+  width: 500px;
+}
+
+.over {
+  padding: 180px 30px;
+}
+
+.under {
+  margin: 10px 0px;
+  background-color: #10b981;
+  width: 120px;
+  padding: 3px 0px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menu_two {
+  border: 1px solid red;
+} */
 
 .card img {
   width: 100%;
@@ -32,7 +107,6 @@
   object-fit: cover;
   position: absolute;
 }
-
 .word {
   position: relative;
   color: whitesmoke;
@@ -42,30 +116,30 @@
   width: 550px;
   height: 358px;
   margin-top: 30px;
-}
+} 
 
 .menu12 {
   display: flex;
   justify-content: space-between;
 }
 
-.header {
+ .header {
   background-color: pink;
   width: 100%;
   height: 30px;
   align-items: center;
   text-align: center;
-}
+} 
 
-.between2 img {
+ .between2 img {
   width: 120px;
   height: 120px;
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 5px;
-}
+} 
 
-.between2 {
+ .between2 {
   display: flex;
   background-color: whitesmoke;
   width: 540px;
@@ -96,30 +170,30 @@
   display: flex;
 }
 
-.ss {
+ .ss {
   margin-top: 15px;
   margin-left: 10px;
-}
+} 
 
 .down {
   display: flex;
 }
 
-.own {
+ .own {
   display: flex;
   gap: 20px;
   font-size: 20px;
-}
+} 
 
-.own span {
+ .own span {
   color: red;
   font-size: 20px;
-}
+} 
 
 .gift {
   font-size: 17px;
 }
-
+ 
 .active {
   background-color: aquamarine;
   color: #10b981;
@@ -127,8 +201,7 @@
   height: 20px;
   text-align: center;
   border-radius: 5px;
-}
-
+} 
 .activee {
   background-color: pink;
   color: red;
@@ -151,21 +224,21 @@
   border-radius: 3px;
   text-align: center;
   padding: 5px 0px;
-}
+} 
 
-.firstt {
+ .firstt {
   background-color: pink;
   width: 30px;
   height: 30px;
   border-radius: 3px;
   text-align: center;
   padding: 5px 0px;
-}
+} 
 
-.point {
+ .point {
   font-size: 25px;
   gap: 10px;
-}
+} 
 
 .couple {
   margin: 20px 30px;
@@ -185,9 +258,8 @@
   width: 150px;
   font-size: 10px;
   margin-top: 10px;
-}
-
-.pink {
+} 
+ .pink {
   background-color: pink;
   width: 94%;
   height: 110px;
@@ -197,9 +269,9 @@
   margin-left: 90px;
 }
 
-.natural {
+ .natural {
   margin: 30px;
-}
+} 
 
 .now {
   background-color: #10b981;
@@ -213,152 +285,6 @@
   margin: 30px;
 }
 
-/* footer qismi */
-
-.smal_card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  margin: 50px;
-  padding: 0px 50px;
-  border-radius: 10px;
-  background: rgb(255, 237, 213);
-}
-
-.smal-card i {
-  margin-right: 10px;
-  color: rgb(16, 200, 129);
-}
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.but h1 {
-  margin-bottom: 20px;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.but ul li {
-  list-style: none;
-  margin: 10px 0px;
-}
-
-.but a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-}
-
-.but a:hover {
-  color: rgb(16, 200, 129);
-  cursor: pointer;
-}
-
-.but img {
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
-.ilovala {
-  display: flex;
-}
-
-.ilovala img {
-  margin: 8px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.ilovalar h1 {
-  font-size: 20px;
-  font-weight: 450;
-}
-
-.ilov {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 45px;
-  margin: 20px;
-}
-
-.cell {
-  text-align: center;
-  font-size: 12px;
-}
-
-.cell h1 {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.cell span {
-  color: rgb(16, 200, 129);
-  font-size: 25px;
-}
-
-.texts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.texts a {
-  text-decoration: none;
-  color: rgb(16, 200, 129);
-
-}
-
-.texts h1 {
-  font-size: 15px;
-  font-weight: 400;
-  margin-right: 90px;
-}
-
-.smal-card {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100px;
-}
-
-.smal-card h1 {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.ilovala i {
-  margin-top: 15px;
-  margin-right: 15px;
-  font-size: 30px;
-  color: white;
-  background-color: deepskyblue;
-  border-radius: 20px;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.3s;
-  border: 2px solid deepskyblue;
-}
-
-.ilovala i:hover {
-  color: deepskyblue;
-  background-color: white;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
@@ -367,7 +293,7 @@
 
 
 
-.ico:hover {
+ .ico:hover {
   background-color: rgb(16, 185, 129);
   cursor: pointer;
   color: white;
@@ -390,10 +316,10 @@
   height: 120px;
   display: block;
   margin: 40px auto;
-}
-
-.s3:hover {
   transition: all 0,3s;
+  
+}
+.s3:hover{
   width: 155px;
   height: 125px;
 }
@@ -442,9 +368,12 @@
   width: 97%;
   justify-content: space-between;
   margin: 20px auto;
-  padding-bottom: 40px;
+
+}
+.container{
+background-color: #dcdcdc;
 }
 
-.container {
-  background-color: #dcdcdc;
-}
+
+
+
