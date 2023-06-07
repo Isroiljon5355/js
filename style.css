@@ -236,6 +236,7 @@ body {
 .smal-card i {
   margin-right: 10px;
   color: rgb(16, 200, 129);
+
 }
 
 .flex {
@@ -303,7 +304,6 @@ body {
   margin: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
-  text-align: center;
 }
 
 .cell {
@@ -335,6 +335,25 @@ body {
 }
 
 .texts h1 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 90px;
+}
+
+.texts1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.texts1 a {
+  text-decoration: none;
+  color: rgb(16, 200, 129);
+  font-size: 25px;
+}
+
+.texts1 h1 {
   font-size: 15px;
   font-weight: 400;
   margin-right: 90px;
@@ -455,4 +474,22 @@ body {
 
 .container {
   background-color: #dcdcdc;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Payment {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .smal-card {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .texts1 {
+    display: none;
+  }
 }
