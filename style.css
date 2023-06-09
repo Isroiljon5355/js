@@ -349,6 +349,7 @@ body {
   font-weight: 400;
   margin-right: 90px;
 }
+
 .texts1 h1 {
   font-size: 15px;
   font-weight: 300;
@@ -435,6 +436,8 @@ body {
   outline-color: rgb(2, 162, 238);
   cursor: pointer;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 .twt i {
@@ -575,6 +578,11 @@ body {
 
 .s3:hover {
   transition: all 0, 3s;
+  transition: all 0, 3s;
+
+}
+
+.s3:hover {
   width: 155px;
   height: 125px;
 }
@@ -623,7 +631,11 @@ body {
   width: 97%;
   justify-content: space-between;
   margin: 20px auto;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.container {
+  background-color: #dcdcdc;
 }
 
 .container {
