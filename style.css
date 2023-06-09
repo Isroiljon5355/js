@@ -335,7 +335,13 @@ body {
 .texts a {
   text-decoration: none;
   color: rgb(16, 200, 129);
+}
 
+.texts1 a {
+  text-decoration: none;
+  color: rgb(16, 200, 129);
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .texts h1 {
@@ -343,22 +349,13 @@ body {
   font-weight: 400;
   margin-right: 90px;
 }
-
-.texts1 {
-  margin-bottom: 15px;
+.texts1 h1 {
+  font-size: 15px;
+  font-weight: 300;
+  margin-right: 90px;
   text-align: center;
 }
 
-.texts1 h2 {
-  color: rgb(16, 200, 129);
-  font-size: 25px;
-  font-weight: 900;
-}
-
-.texts1 h1 {
-  font-size: 15px;
-  font-weight: 500;
-}
 
 .smal-card {
   display: flex;
