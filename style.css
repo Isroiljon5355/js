@@ -437,8 +437,6 @@ body {
   cursor: pointer;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 
 .twt i {
   margin: auto;
@@ -570,30 +568,19 @@ body {
 }
 
 .s3 {
-  width: 150px;
-  height: 120px;
+  width: 180px;
+  height: 140px;
   display: block;
   margin: 40px auto;
 }
 
-.s3:hover {
-  transition: all 0, 3s;
-  transition: all 0, 3s;
-
-}
-
-.s3:hover {
-  width: 155px;
-  height: 125px;
-}
-
 .div2 {
-  width: 230px;
-  height: 260px;
+  width: 218px;
+  height: 290px;
   background-color: white;
   border-radius: 5px;
   margin-top: 20px;
-
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 
@@ -628,23 +615,43 @@ body {
 .tt {
   display: flex;
   flex-wrap: wrap;
-  width: 97%;
+  width: 100%;
   justify-content: space-between;
   margin: 20px auto;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.container {
-  background-color: #dcdcdc;
-}
-
-.container {
-  background-color: #dcdcdc;
-}
 
 .Payment img {
   width: 80%;
 }
+
+.but {
+  transition: color 0.3s ease;
+}
+
+.but:hover {
+  color: rgb(16, 185, 129);
+  cursor: pointer;
+}
+
+.div2 img {
+  transition: transform 0.3s ease;
+}
+
+.div2 img:before {
+  transition: opacity 0.3s ease;
+}
+
+.div2 img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
 
 /* media */
 @media only screen and (max-width: 1200px) {
@@ -689,3 +696,5 @@ body {
     transform: rotate(-15deg);
   }
 }
+
+/* tugadiiii */
