@@ -12,4 +12,4 @@ function test() {
     div.append("😂");
   }
 }
-const aa = prompt();
+// const aa = prompt();
