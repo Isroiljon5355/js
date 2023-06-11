@@ -102,7 +102,7 @@ data.map((item) => {
           <p style="color: gray; font-size: 15px;">${item.nom}</p>
         </div>
         <div class="kaliy">
-          <p class="s5">${item.price}</p>
+           <p class="s5">${item.price}</p>
           <div class="ico">
             <i class='bx bx-lock'></i>
           </div>
@@ -110,33 +110,138 @@ data.map((item) => {
       </div>
     `;
 });
-
-import cars from "./data.js"
-console.log(cars);
-
-const a =document.querySelector(".cars_img")
-cars.map((item)=> {
+const test = [
+  {
+    id: 1,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340705%2Fcategory%2520icon%2Fcarp-fish_paxzrt.png&w=48&q=75",
+    text: "Fish & Meat",
+    p: "> Fish",
+    h1: "> Meat",
+    h2: "  ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 2,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340704%2Fcategory%2520icon%2Fcabbage_n59uv3.png&w=48&q=75",
+    text: "Fruits & Vegetable",
+    p: "> Baby Food",
+    h1: "> Fresh Fruits",
+    h2: "> Dry Fruits",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 3,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340704%2Fcategory%2520icon%2Ffrying-pan_vglm5c.png&w=48&q=75",
+    text: "Cooking Essentials",
+    p: "> Flour",
+    h1: "> Oil",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 4,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340705%2Fcategory%2520icon%2Fcookie_1_ugipqa.png&w=48&q=75",
+    text: "Biscuits & Cakes",
+    p: "> Biscuits",
+    h1: "> Cakes",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 5,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340706%2Fcategory%2520icon%2Fspray_pebsjt.png&w=48&q=75",
+    text: "Household Tools",
+    p: "> Water Filter",
+    h1: "> Cleaning Tools",
+    h2: "> Pest Control",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 6,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340707%2Fcategory%2520icon%2Fcat_tznwmq.png&w=48&q=75",
+    text: "Pet Care",
+    p: "Dog Care",
+    h1: "Cat Care",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 7,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340706%2Fcategory%2520icon%2Fbeauty_vfbmzc.png&w=48&q=75",
+    text: "Beauty & Healths",
+    p: ">Women",
+    h1: ">men",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 8,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340707%2Fcategory%2520icon%2Fcat_tznwmq.png&w=48&q=75",
+    text: "Jam & Jelly",
+    p: " ",
+    h1: " ",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FrmLvfsMC%2Fstrawberry-jam-1.png&w=48&q=75",
+  },
+  {
+    id: 9,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340707%2Fcategory%2520icon%2Fcat_tznwmq.png&w=48&q=75",
+    text: "Pet Care",
+    p: "Dog Care",
+    h1: "Cat Care",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 10,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340707%2Fcategory%2520icon%2Fcat_tznwmq.png&w=48&q=75",
+    text: "Pet Care",
+    p: "Dog Care",
+    h1: "Cat Care",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+  {
+    id: 10,
+    img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1658340707%2Fcategory%2520icon%2Fcat_tznwmq.png&w=48&q=75",
+    text: "Pet Care",
+    p: "Dog Care",
+    h1: "Cat Care",
+    h2: " ",
+    link: "https://kachabazar-store.vercel.app/search?Category=fish--meat",
+  },
+];
+const a = document.querySelector(".cars_img");
+test.map((item) => {
   a.innerHTML+=` 
-      <div class="cars_img">
-      <div class="cars_a">
-          <img src="./img_2/carp-fish.webp" alt="">
-      </div>
+  <div class="cars_king"
+  <div class="cars_img">
 
-      <div class="cars_ul">
-          <ul>
-              <li>
-                  <a href="https://kachabazar-store.vercel.app/search?Category=fish--meat">${item.title}</a>
-              </li>
-          </ul>
 
-          <div class="nav">
-              <li>
-                  <a href="https://kachabazar-store.vercel.app/search?Category=fish--meat">>${item.title}</a>
-              </li>
-              <li>
-                  <a href="https://kachabazar-store.vercel.app/search?Category=fish--meat">>${item.title}</a>
-              </li>
-          </div>
+  <div class="cars_a">
+      <img src="${item.img}" alt="">
+  </div>
+
+  <div class="cars_ul">
+      <ul>
+          <li>
+              <a href="${item.link}">${item.text}</a>
+          </li>
+      </ul>
+
+      <div class="nav">
+          <li>
+              <a href="${item.link}">${item.p}</a>
+          </li>
+          <li>
+              <a href="${item.link}">${item.h1}</a>
+          </li>
+          <li>
+              <a href="${item.link}">${item.h2}</a>
+          </li>
       </div>
-  </div>`
+  </div>
+  </div>
+</div>
+  `;
 });
