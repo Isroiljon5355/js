@@ -74,7 +74,7 @@
 }
 .cars_item p {
     font-weight: 400;
-}   
+}
 
 .cars_king {
     border: 1px solid rgba(192, 192, 192, 0.418); 
@@ -83,7 +83,7 @@
     align-items: center;
     height: 100px;
     transition: 0.5s;
-    /* margin-top: 100px; */
+    background-color: #fff;
 
 }
 .cars_img {
@@ -91,7 +91,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     margin-top: 100px;
-    background-color: #fff;
 }
 
 .cars_king:hover {
