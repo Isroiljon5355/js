@@ -1,4 +1,4 @@
-const data = [
+const data=[
   {
     img: "https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fahossain%2Fimage%2Fupload%2Fv1655097002%2Fplaceholder_kvepfp.png&w=256&q=75",
     price: "$100",
@@ -90,7 +90,8 @@ const data = [
     nom: "Aloe Vera Leaf",
   },
 ];
-const tt = document.querySelector(".tt");
+
+const tt = document.querySelector(".tt")
 data.map((item) => {
   tt.innerHTML += `
     <div class="div2">
@@ -104,7 +105,7 @@ data.map((item) => {
         <div class="kaliy">
            <p class="s5">${item.price}</p>
           <div class="ico">
-            <i class='bx bx-lock'></i>
+            <i class='bx bx-lock'></i> 
           </div>
         </div>
       </div>

@@ -6,54 +6,49 @@
     box-sizing: border-box;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: auto;
-  padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
 }
 .navbar ul {
-  width: 400px;
-  display: flex;
-  justify-content: space-between;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 .navbar ul a {
-  text-decoration: none;
+    text-decoration: none;
 }
 .navbar ul li {
-  list-style-type: none;
+    list-style-type: none;
 }
 .card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:25px;
 }
 .item_card {
-  width: 250px;
-  height: 200px;
-  border: 1px solid red;
+    width: 250px;
+    height: 200px;
+    border: 1px solid red;
 }
-@media (max-width: 560px) {
-  .card {
-    justify-content: center;
-  }
-} */
 
 .card {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 25px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
 }
 
 .menu {
     position: relative;
 } 
 
- .menu img {
+.menu img {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -74,7 +69,7 @@
 }
 .cars_item p {
     font-weight: 400;
-}
+}   
 
 .cars_king {
     border: 1px solid rgba(192, 192, 192, 0.418); 
@@ -83,7 +78,7 @@
     align-items: center;
     height: 100px;
     transition: 0.5s;
-    background-color: #fff;
+    /* margin-top: 100px; */
 
 }
 .cars_img {
@@ -91,6 +86,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     margin-top: 100px;
+    background-color: #fff;
 }
 
 .cars_king:hover {
@@ -251,17 +247,17 @@
 } 
 
 .cardtext {
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  top: 30%;
-  left: 15%;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 30%;
+    left: 15%;
 } 
 
 .between2 {
-  color: silver;
-  width: 50px;
-  height: 140px;
+    color: silver;
+    width: 50px;
+    height: 140px;
 }
 
 .box_text h2 {
@@ -335,29 +331,29 @@
 }
 
 .menu_two {
-  border: 1px solid red;
+    border: 1px solid red;
 } 
 
 .card img {
-  width: 100%;
-  height: 680px;
-  object-fit: cover;
-  position: absolute;
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    position: absolute;
 }
 .word {
-  position: relative;
-  color: whitesmoke;
-  padding: 200px;
-  padding-left: 500px;
-  font-size: x-large;
-  width: 550px;
-  height: 358px;
-  margin-top: 30px;
+    position: relative;
+    color: whitesmoke;
+    padding: 200px;
+    padding-left: 500px;
+    font-size: x-large;
+    width: 550px;
+    height: 358px;
+    margin-top: 30px;
 } 
 
 .menu12 {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .box_king_2 i:hover {
@@ -445,109 +441,112 @@
 }
 
 .cupon {
-  width: 150px;
-  font-size: 10px;
-  margin-top: 10px;
+    width: 150px;
+    font-size: 10px;
+    margin-top: 10px;
 } 
- .pink {
-  background-color: pink;
-  width: 94%;
-  height: 110px;
-  justify-content: space-between;
-  display: flex;
-  margin-top: 20px;
-  margin-left: 90px;
+
+.pink {
+    background-color: pink;
+    width: 94%;
+    height: 110px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
 }
 
- .natural {
-  margin: 30px;
+.natural {
+    margin: 30px;
 } 
 
 .now {
-  background-color: #10b981;
-  color: white;
-  width: 130px;
-  height: 40px;
-  border-radius: 58px;
-  align-items: center;
-  text-align: center;
-  padding: 5px 0px;
-  margin: 30px;
+    background-color: #10b981;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 58px;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 30px;
 }
 
- .ico:hover {
-  background-color: rgb(16, 185, 129);
-  cursor: pointer;
-  color: white;
+.ico:hover {
+    background-color: rgb(16, 185, 129);
+    cursor: pointer;
+    color: white;
 }
 
 .s1 {
-  margin: 10px 130px;
-  text-align: center;
+    margin: 10px 130px;
+    text-align: center;
 }
 
 .s2 {
-
-  text-align: center;
-  margin: 0px auto;
-
+    text-align: center;
+    margin: 0px auto;
 }
 
 .s3 {
-  width: 150px;
-  height: 120px;
-  display: block;
-  margin: 40px auto;
-  transition: all 0,3s;
-  
+    width: 150px;
+    height: 120px;
+    display: block;
+    margin: 40px auto;
+    transition: all 0,3s;
 }
 .s3:hover{
-  width: 155px;
-  height: 125px;
+    width: 155px;
+    height: 125px;
 }
 
 .div2 {
-  width: 230px;
-  height: 260px;
-  background-color: white;
-  border-radius: 5px;
-  margin-top: 20px;
+    width: 230px;
+    height: 260px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
 
 }
 
 
 .kaliy {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .ico {
-  margin: 0px 20px;
-  font-size: 20px;
-  border: solid 0.5px rgb(225, 223, 223);
-  padding: 4px;
-  color: rgb(16, 185, 20);
-  border-radius: 5px;
+    margin: 0px 20px;
+    font-size: 20px;
+    border: solid 0.5px rgb(225, 223, 223);
+    padding: 4px;
+    color: rgb(16, 185, 20);
+    border-radius: 5px;
 }
 
 .lop {
-  font-size: 12px;
-  margin: 5px 0px;
+    font-size: 12px;
+    margin: 5px 0px;
 }
 
 .s5 {
-  margin: 0px 10px;
+    margin: 0px 10px;
 }
 
 .s6 {
-  margin: 10px;
+    margin: 10px;
 }
 
 .tt {
-  display: flex;
-  flex-wrap: wrap;
-  width: 97%;
-  justify-content: space-between;
-  margin: 200px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 97%;
+    justify-content: space-between;
+    margin: 200px auto;
+}
+@media (max-width: 560px) {
+    .card {
+        justify-content: center;
+    }
 }
