@@ -6,6 +6,12 @@
 body{
   font-family: sans-serif;
 }
+.backdrop{
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  z-index: 99999;
+}
 .bbb{
   display: flex;
   justify-content: space-between;
@@ -13,22 +19,25 @@ body{
   margin: auto;
   font-size: 13px;
   padding: 10px;
+  position: relative;
 }
 .katta {
   position: fixed;
   width: 100%;
-  z-index: 999;
 }
 
 .nav1 {
-  background-color: rgb(5, 185, 149);
+  background-color: #10B981;
 }
 
 .bosh1 img {
   width: 100px;
 
 }
-
+.bbb{
+  background-color: #fff;
+  width: 100%;
+}
 .bosh2 input {
   /* width: 800px; */
   width: 95%;
@@ -42,6 +51,7 @@ body{
   font-size: 25px;
   color: white;
   cursor: pointer;
+  width: 70px;
 }
 
 .pas1 {
@@ -108,26 +118,126 @@ ul li a {
   position: relative;
 color: black;
 }
-
+ul li a:hover{
+  color: green;
+}
 .p1 ul li a::before {
   content: " ";
   width: 0%;
   height: 12%;
   top: 100%;
   left: 0%;
-  background-color: rgb(5, 185, 149);
+  background-color: #4cd964;
   position: absolute;
   transition: 0.5s;
 }
-@media(max-width: 1150px){
+.ulkhen {
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;    
+}
+.hj{
+  display: flex;
+  gap: 10px;
+}
+.hj a{
+  border: none;
+color: #4fb275;
+font-weight: 700;
+text-decoration: none;
+}
+.bot{
+  width: 450px;
+  height: 130vh;
+  z-index: 9;
+  background-color: #fff;
+  position: absolute;
+  transition: all 0.3s;
+  left: -450px;
+}
+.f{
+
+  left: 0px;
+  
+}
+.kard{
+  border: 1px solid rgb(201, 200, 200);
+  border-left: none;
+  border-right: none;
+}
+.kard .cards{
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.kard .cards img{
+  width: 30px;
+  padding: 5px;
+}
+.kard .cards i {
+  padding: 5px;
+}
+.f button{
+  padding: 10px;
+  background-color: rgb(247, 6, 6);
+
+}
+button{
+  background-color: green;
+  color: white;
+}
+.kop button{
+  border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+background-color: aliceblue;
+color: red;
+font-weight: 700;
+font-size: 20px;
+align-items: center;
+justify-content: center;
+}
+.kop{
+  padding: 10px 30px;
+  height: 70px;
+  background-color: #10B981;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bot .uj {
+  padding: 20px;
+}
+@media(max-width: 1280px){
+    .bbb {
+        display: none;
+      }
   .bosh2{
-    width: 500px;
+    width: 400px;
   }
+        nav{
+          height: 70px;
+        }
+    .car {
+      background-color: rgb(58, 198, 151);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed !important;
+      top: 90%;
+      width: 100%;
+    }
+  
+    .car i {
+      color: white;
+      font-size: 30px;
+      padding: 30px;
+    }
 }
-@media(max-width: 800px) {
-.bbb{
-  display: none;
-}
+@media(max-width: 1000px) {
+
 .bosh1{
   display: none;
 }
