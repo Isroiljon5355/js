@@ -222,7 +222,7 @@ test.map((item) => {
   <div class="cars_a">
       <img src="${item.img}" alt="">
   </div>
-
+  <div class="king">
   <div class="cars_ul">
       <ul>
           <li>
@@ -244,6 +244,6 @@ test.map((item) => {
   </div>
   </div>
 </div>
+</div>
   `;
 });
-
